@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/shoutout.js',
+    entry: './src/index.js',
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'app.bundle.js'
@@ -13,7 +13,7 @@ module.exports = {
               loader: 'babel-loader',
               exclude: /node_modules/,
               options: {
-                  presets: ['@babel/preset-env']
+                  presets: ['@babel/preset-env', '@babel/preset-react']
               }
           }
       ]
