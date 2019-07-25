@@ -1,0 +1,23 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "description": "react app setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "create",
+    "boilerplate"
+  ],
+  "author": "SAMUEL PINHEIRO",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devPinheiro/react-starter-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devPinheiro/react-starter-app/issues"
+  },
+  "homepage": "https://github.com/devPinheiro/react-starter-app#readme"
+}
