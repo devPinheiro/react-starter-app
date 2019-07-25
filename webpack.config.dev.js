@@ -5,5 +5,6 @@ module.exports = webpackMerge(baseConfig, {
     mode: 'development',
     devServer: {
         port: 9500
-    }
+    },
+    devtool: 'source-map'
 })
